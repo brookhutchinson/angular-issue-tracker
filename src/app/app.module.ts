@@ -8,13 +8,14 @@ import { MatToolbarModule }        from '@angular/material/toolbar';
 
 // components
 import { AppComponent }            from './app.component';
+import { ListIssueComponent }      from './components/list-issue/list-issue.component';
 import { NavbarComponent }         from './components/navbar/navbar.component';
 
 @NgModule({
   // modules
   imports: [ AppRoutingModule, BrowserAnimationsModule, BrowserModule, HttpClientModule, MatToolbarModule ],
   // components
-  declarations: [ AppComponent, NavbarComponent ],
+  declarations: [ AppComponent, ListIssueComponent, NavbarComponent ],
   // services
   providers: [],
   // bootstrap
